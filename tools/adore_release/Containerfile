@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.7-labs
-FROM docker.io/ros:jazzy-ros-base
+FROM docker.io/ros:iron-ros-base
 
 # This env variable is used by tools
 ENV ADORE_SOURCE_DIRECTORY /ros2_ws
@@ -12,8 +12,8 @@ RUN apt update -y \
 		wget \
 		yq \
 		sqlite3 \
-		ros-jazzy-foxglove-bridge \
-		ros-jazzy-cv-bridge \
+		ros-iron-foxglove-bridge \
+		ros-iron-cv-bridge \
 		python3-pip \
 		python3-pyproj \
 		python3-ujson \
