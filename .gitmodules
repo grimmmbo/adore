@@ -56,10 +56,10 @@
 	url = git@github.com:eclipse/sumo.git
 [submodule "ros2_workspace/src/sumo_bridge"]
 	path = ros2_workspace/src/interfaces/sumo_bridge
-	url = git@github.com:eclipse-adore/sumo_if_ros.git
+	url = git@github.com:grimmmbo/sumo_if_ros.git
 [submodule "ros2_workspace/src/carla_bridge"]
 	path = ros2_workspace/src/interfaces/carla_bridge
-	url = git@github.com:eclipse-adore/adore_if_carla.git
+	url = git@github.com:grimmmbo/adore_if_carla.git
 [submodule "ros2_workspace/src/ros2_messages/ros-carla-msgs"]
 	path = ros2_workspace/src/ros2_messages/ros-carla-msgs
 	url = git@github.com:carla-simulator/ros-carla-msgs.git
@@ -104,4 +104,4 @@
 	url = git@github.com:eclipse-adore/adore_simulated_remote_operator.git
 [submodule "tools/adore_model_checker"]
 	path = vendor/adore_model_checker
-	url = git@github.com:DLR-TS/adore_model_checker.git
+	url = git@github.com:grimmmbo/adore_model_checker.git

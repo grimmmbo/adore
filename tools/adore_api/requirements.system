@@ -4,4 +4,3 @@ python3-dev
 libyaml-dev
 sqlite3
 libsqlite3-dev
-yq

@@ -19,7 +19,7 @@ RUN apt update -y \
 		python3-ujson \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN python3 -m pip install --break-system-packages \
+RUN python3 -m pip install  \
 		flask \
 		flask-cors
 

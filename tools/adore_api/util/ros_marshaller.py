@@ -245,7 +245,7 @@ class ROSMarshaller:
         """Process JSON input and output as JSON with topic and datatype metadata"""
         data = ROSMarshaller.to_dict(raw_json, topic, datatype)
         import sys
-        with open(f"{topic.replace("/", "_")}.json", "w") as f:
+        with open(f"{topic.replace('/', '_')}.json", "w") as f:
             f.write(json.dumps(data, indent=4))
         print(json.dumps(data, indent=4))
 
