@@ -28,6 +28,8 @@ COPY build /ros2_ws
 COPY --parents clean_repo/./adore_scenarios /ros2_ws
 COPY --parents clean_repo/./tools/adore_api /ros2_ws
 COPY clean_repo/setup.sh /ros2_ws
+COPY clean_repo/adore.env /ros2_ws
+COPY clean_repo/tools/check_adore_binaries.sh /ros2_ws/tools/check_adore_binaries.sh
 COPY clean_repo/tools/adore_release/files/entrypoint.sh /entrypoint.sh
 COPY clean_repo/tools/adore_release/files/README.md /ros2_ws/
 COPY clean_repo/tools/adore_release/files/LICENSE /ros2_ws/
