@@ -2,7 +2,7 @@
 FROM docker.io/ros:iron-ros-base
 
 # This env variable is used by tools
-ENV ADORE_SOURCE_DIRECTORY /ros2_ws
+ENV SOURCE_DIRECTORY /ros2_ws
 
 # Install minimal requirements for nodes
 ENV DEBIAN_FRONTEND noninteractive
