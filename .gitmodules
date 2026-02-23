@@ -62,7 +62,7 @@
 	url = git@github.com:grimmmbo/adore_if_carla.git
 [submodule "ros2_workspace/src/map_matcher"]
 	path = ros2_workspace/src/map_matcher
-	url = git@github.com:grimmmbo/adore_map_matcher.git	
+	url = https://github.com/grimmmbo/adore_map_matcher.git
 [submodule "ros2_workspace/src/ros2_messages/ros-carla-msgs"]
 	path = ros2_workspace/src/ros2_messages/ros-carla-msgs
 	url = git@github.com:carla-simulator/ros-carla-msgs.git
