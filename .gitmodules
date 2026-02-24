@@ -108,3 +108,6 @@
 [submodule "tools/adore_model_checker"]
 	path = vendor/adore_model_checker
 	url = git@github.com:grimmmbo/adore_model_checker.git
+[submodule "ros2_workspace/src/ros2_messages/odd_msgs"]
+	path = ros2_workspace/src/ros2_messages/odd_msgs
+	url = git@github.com:grimmmbo/odd_msgs.git
